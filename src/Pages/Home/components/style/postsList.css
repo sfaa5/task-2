@@ -1,0 +1,121 @@
+.posts-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts-section .container .posts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+}
+
+.posts-section .container .posts .post-card .post-link {
+    color: #212529;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.posts-section .container .posts .post-card .post-link:hover {
+    color: #007bff;
+    font-weight: bold;
+
+}
+
+.posts-section .container .posts .post-card .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.posts-section .container .posts .post-card .card-top .delete-date-edit-container {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts-section .container .posts .post-card .card-top .delete-date-edit-container button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts-section .container .posts .post-card .card-top .delete-date-edit-container .delete-button {
+    color: rgb(209, 11, 11);
+}
+
+.posts-section .container .posts .post-card .card-top .delete-date-edit-container .delete-button:hover {
+    background-color: rgb(209, 11, 11);
+    color: #fff;
+}
+
+.posts-section .container .posts .post-card .card-top .delete-date-edit-container .edit-button {
+    color: #007bff;
+}
+
+.posts-section .container .posts .post-card .card-top .delete-date-edit-container .edit-button:hover {
+    background-color: #0069d9;
+    color: #fff;
+}
+
+.posts-section .container .posts .post-card .card-title {
+    font-weight: bold;
+}
+
+.add-post {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.add-post:hover {
+    background-color: #0069d9;
+}

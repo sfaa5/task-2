@@ -1,0 +1,44 @@
+.post-details .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post {
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+.post .post-body {
+    padding: 1rem;
+}
+
+.post .post-body h1 {
+    font-size: 1.5rem;
+}
+
+.post .post-body p {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+.post-comments {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}

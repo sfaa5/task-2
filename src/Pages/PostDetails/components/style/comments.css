@@ -1,0 +1,42 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: .5rem;
+    width: 100%;
+}
+
+.comment:not(:last-child) {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.comment .comment-name h3 {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.comment-btns {
+    display: flex;
+}
+
+.comment-btns .comment-btn {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    font-weight: bold;
+}
+
+.comment-btns .comment-btn:hover {
+    color: #007bff;
+}
+
+.comment-btns .comment-btn:not(:last-child) {
+    border-right: 1px solid #dee2e6;
+    padding-left: 0;
+}
